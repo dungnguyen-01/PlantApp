@@ -1,0 +1,10 @@
+// Here you can add other styles
+.cut_text_show {
+  min-width: 150px;
+}
+.cut_text_show p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
