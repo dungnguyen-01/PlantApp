@@ -42,15 +42,13 @@ axios.interceptors.response.use(
 )
 
 const GAuth = gAuth.createGAuth({
-  clientId:
-    '1043285007254-1l9vn7oq04sdm8lt4f2ldvioj82n69n3.apps.googleusercontent.com',
+  clientId: 'your_id,
 })
 
 const app = createApp(App)
 app.use(GAuth)
 app.use(vue3GoogleLogin, {
-  clientId:
-    '1043285007254-1l9vn7oq04sdm8lt4f2ldvioj82n69n3.apps.googleusercontent.com',
+ clientId: 'your_id,
 })
 
 app.use(store)
